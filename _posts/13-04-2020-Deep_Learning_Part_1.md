@@ -16,9 +16,34 @@ What is a Neural Network?
 Deep learning is esentially training a large number Neural Networks. But what is a neural network?
 The simplest form of a Neural network includes just 2 variables, is this example the size of the house and its price. We are trying to predict the price of the house as a function the size of the house
 
-price y
+price y    Linear function with a max of 0, because a price of a house cant go below 0.
+            it is called RELU function and very popular in machine learning.
             x/   
             /x                   This neural network looks like this
          x /                     size  ---> () ---> price 
-    _____/                         x      nueron/     y
+    _____ /                         x      nueron/     y
          size of house x                  node 
+         
+         
+The neuron's job is to input the size, compute the linear function (while taking a max of 0), and return the price
+
+When we add more variables to the network, it might look like this - 
+
+size
+              () 
+#bedrooms\
+         v
+         ()
+          ^    
+zip_code\/
+         v
+         ()
+         ^   
+wealth  /
+
+
+
+
+         
+         
+         
